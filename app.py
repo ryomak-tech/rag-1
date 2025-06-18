@@ -22,7 +22,7 @@ prompt = PromptTemplate(input_variables=["question"], template=template)
 
 # LLM設定
 llm = HuggingFaceHub(
-    repo_id="google/flan-t5-large",  # flan-t5-base より安定
+    repo_id="google/flan-t5-base",  # flan-t5-base より安定
     model_kwargs={"temperature": 0.7, "max_length": 256},
     huggingfacehub_api_token=HUGGINGFACE_API_TOKEN,
     task="text2text-generation"  # ← これがないとクラッシュすることがあります
