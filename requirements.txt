@@ -1,7 +1,7 @@
 streamlit
 llama-cpp-python
-langchain
-langchain-community
+langchain==0.2.1
+langchain-community==0.0.21
 huggingface_hub
 sentence-transformers
 faiss-cpu
