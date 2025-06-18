@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain.llms import HuggingFaceHub
+from langchain_community.llms import HuggingFaceHub
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
